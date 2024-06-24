@@ -1,15 +1,11 @@
-import SideBar from "./Sidebar/Sidebar";
+import SideBar from './Sidebar/Sidebar';
+import HeroBanner from './HeroBanner/HeroBanner';
 
 export default function App() {
   return (
-    <div className="flex">
+    <div className="flex justify-between bg-slate-100">
       <SideBar />
-      <div>
-        <h1>test</h1>
-      </div>
-      <div>
-        <h1 className="text-xl font-bold text-red-500">Hello world!</h1>
-      </div>
+      <HeroBanner />
     </div>
   );
 }

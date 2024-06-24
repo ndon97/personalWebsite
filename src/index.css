@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer components {
+  .sidebar-icon {
+    @apply relative mx-auto mb-2 mt-2 flex h-12 w-12 items-center justify-center bg-gray-800 text-green-500 shadow-lg hover:bg-green-600;
+  }
+} */
