@@ -2,7 +2,7 @@ import ExperienceTab from './ExperienceTab';
 
 export default function Experience() {
   return (
-    <div className="flex h-screen w-full flex-col p-10 pb-2">
+    <div className="mt-10 flex w-full flex-col pl-10 pt-10">
       <h1 className="mb-2 text-center text-4xl font-medium text-gray-700">Expereince</h1>
       <ExperienceTab
         title="Xplor Technologies"

@@ -1,6 +1,6 @@
 export default function HeroBanner() {
   return (
-    <div className="flex h-screen w-full items-center justify-center p-10 pb-2">
+    <div className="flex h-screen w-full items-center justify-center pl-10 pr-10">
       <div>
         <h1 className="mb-2 text-4xl font-bold">Hey I am Nick Don</h1>
         <p className="mr-2">
