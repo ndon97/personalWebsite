@@ -1,17 +1,69 @@
 import SidebarItem from './SidebarItem';
+import {
+  FaHome,
+  FaPeopleArrows,
+  FaRocket,
+  FaAddressCard,
+  FaSchool,
+  FaBuilding,
+  FaStar,
+} from 'react-icons/fa';
+import { MutableRefObject } from 'react';
 
-export default function SideBar() {
+type SideBarProps = {
+  scrollToSection: (ref: MutableRefObject<HTMLDivElement | null>) => void;
+  sections: {
+    home: MutableRefObject<HTMLDivElement | null>;
+    about: MutableRefObject<HTMLDivElement | null>;
+    journey: MutableRefObject<HTMLDivElement | null>;
+    skills: MutableRefObject<HTMLDivElement | null>;
+    experience: MutableRefObject<HTMLDivElement | null>;
+    education: MutableRefObject<HTMLDivElement | null>;
+    contact: MutableRefObject<HTMLDivElement | null>;
+  };
+};
+
+export default function SideBar({ scrollToSection, sections }: SideBarProps) {
   return (
-    <div className="sticky left-0 top-0 flex h-screen w-40 flex-col bg-gray-600 text-white shadow-lg">
-      <div className="mt-10">
-        <SidebarItem title="Home" />
-        <SidebarItem title="About Me" />
-        <SidebarItem title="My Journey" />
-        <SidebarItem title="Skills" />
-        <SidebarItem title="Experience" />
-        <SidebarItem title="Education" />
-        <SidebarItem title="Contact Me" />
+    <div className="sticky left-0 top-0 flex h-screen w-2/6 flex-col bg-gray-600 text-white shadow-lg">
+      <div className="ml-2 mt-10 flex flex-col">
+        <SidebarItem
+          title="Home"
+          icon={<FaHome className="mr-2" />}
+          onClick={() => scrollToSection(sections.home)}
+        />
+        <SidebarItem
+          title="About Me"
+          icon={<FaPeopleArrows className="mr-2" />}
+          onClick={() => scrollToSection(sections.about)}
+        />
+        <SidebarItem
+          title="My Journey"
+          icon={<FaRocket className="mr-2" />}
+          onClick={() => scrollToSection(sections.journey)}
+        />
+        <SidebarItem
+          title="Skills"
+          icon={<FaStar className="mr-2" />}
+          onClick={() => scrollToSection(sections.skills)}
+        />
+        <SidebarItem
+          title="Experience"
+          icon={<FaBuilding className="mr-2" />}
+          onClick={() => scrollToSection(sections.experience)}
+        />
+        <SidebarItem
+          title="Education"
+          icon={<FaSchool className="mr-2" />}
+          onClick={() => scrollToSection(sections.education)}
+        />
+        <SidebarItem
+          title="Contact Me"
+          icon={<FaAddressCard className="mr-2" />}
+          onClick={() => scrollToSection(sections.contact)}
+        />
       </div>
+      <img className="absolute bottom-0 rounded-full p-10" src="/assets/logo.png" alt="Nick Don" />
     </div>
   );
 }

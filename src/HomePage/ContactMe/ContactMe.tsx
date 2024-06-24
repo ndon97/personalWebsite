@@ -3,7 +3,7 @@ import { FaMobileAlt, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function ContactMe() {
   return (
-    <footer className="flex justify-around bg-white p-10">
+    <footer className="flex w-full justify-around bg-white p-10">
       <ContactMeCard title="Mobile" value="0425273316" icon={<FaMobileAlt size={30} color="" />} />
       <ContactMeCard
         title="Email"
