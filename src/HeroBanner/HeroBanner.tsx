@@ -1,5 +1,3 @@
-import ProfileImage from '/public/assets/profile.webp';
-
 export default function HeroBanner() {
   return (
     <div className="justify-cente flex h-screen w-full items-center p-10">
@@ -12,7 +10,7 @@ export default function HeroBanner() {
           coding.
         </p>
       </div>
-      <img className="rounded-full" src={ProfileImage} alt="Nick Don" />
+      <img className="rounded-full" src="/assets/profile.webp" alt="Nick Don" />
     </div>
   );
 }
