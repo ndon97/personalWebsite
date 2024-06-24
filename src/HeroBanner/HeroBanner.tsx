@@ -10,7 +10,7 @@ export default function HeroBanner() {
           coding.
         </p>
       </div>
-      <img className="rounded-full" src="public/static/images/profile.webp" alt="Nick Don" />
+      <img className="rounded-full" src="public/assets/profile.webp" alt="Nick Don" />
     </div>
   );
 }
