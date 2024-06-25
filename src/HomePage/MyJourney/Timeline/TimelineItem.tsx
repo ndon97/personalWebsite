@@ -12,7 +12,7 @@ export default function TimelineItem({ date, title, description }: TimelineItemP
         <p className="text-sm text-gray-500">{date}</p>
       </div>
       <div className="mb-6 ms-4 mt-2">
-        <h4 className="mb-1.5 text-xl font-semibold text-indigo-500">{title}</h4>
+        <h4 className="mb-1.5 text-xl font-medium text-indigo-900">{title}</h4>
         <p className="mb-3">{description}</p>
       </div>
     </li>

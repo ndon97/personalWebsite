@@ -42,7 +42,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex justify-between bg-slate-100">
+    <div className="primary-text flex justify-between bg-slate-100">
       <SideBar scrollToSection={scrollToSection} sections={sections} />
       <div className="flex flex-col">
         <div ref={heroBannerRef}>

@@ -1,6 +1,8 @@
+import ImageCarousel from './ImageCarousel/ImageCarousel';
+
 export default function About() {
   return (
-    <div className="flex h-screen w-full items-center justify-center pl-10 pr-10">
+    <div className="primary-text flex h-screen w-full items-center justify-center pl-10 pr-10">
       <div className="flex">
         <div className="m-auto">
           <h1 className="mb-8 text-center text-4xl font-medium text-teal-600">About Me</h1>
@@ -25,14 +27,18 @@ export default function About() {
             products that make a positive impact on the world.
           </p>
           <div className="mt-6 flex items-center">
-            <div>
-              <h2 className="mb-6 text-center text-2xl font-medium text-indigo-500">Interests</h2>
+            <div className="mr-6">
+              <h2 className="mb-6 text-center text-2xl font-medium text-indigo-900">Interests</h2>
               <p>
                 Outside of coding, I enjoy playing and watching sports, reading, and spending
                 quality time with my friends and family. I also love going camping, always looking
                 for new places to explore. Over the last 2 years, I built a campervan with the help
                 of my partner, which we use to explore various places.
               </p>
+            </div>
+            <div className="flex w-4/6 flex-col items-center">
+              <ImageCarousel />
+              <p>Scroll Me</p>
             </div>
           </div>
         </div>
