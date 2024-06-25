@@ -6,7 +6,7 @@ export default function Timeline() {
       <TimelineItem
         date={'01.01.2015'}
         title="Started Bachelor of Commerce at Monash University"
-        description="In 2015, after graduating from high school, I began my Bachelor of Commerce at Monash University. This marked the start of a journey that would eventually lead me to discover my passion for coding."
+        description="In 2015, after graduating from high school, I began my Bachelor of Commerce at Monash University. This marked the start of a journey that would eventually lead me to discover my passion for software development."
       />
 
       <TimelineItem

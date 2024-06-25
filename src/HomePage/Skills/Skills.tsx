@@ -6,12 +6,12 @@ export default function Skills() {
   return (
     <div className="flex h-screen w-full flex-col">
       <div className="mb-auto mt-auto">
-        <h1 className="mb-5 mt-6 text-center text-4xl font-medium text-gray-700">Skills</h1>
+        <h1 className="mb-5 mt-6 text-center text-4xl font-medium text-teal-600">Skills</h1>
         <div className="flex justify-evenly">
           <SkillsCard
             icon={<FaLanguage />}
             title="Languages"
-            description="Javascript, Typescript, Elixir, Ruby, Go"
+            description="JavaScript, TypeScript, Elixir, Ruby, Go"
           />
           <SkillsCard
             icon={<FaMicrochip />}
