@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <div className="flex h-screen w-full items-center justify-center pl-10 pr-10">
-      <div>
-        <h1 className="mb-2 text-4xl font-medium text-gray-700">About Me</h1>
+      <div className="m-auto">
+        <h1 className="mb-8 text-center text-4xl font-medium text-gray-700">About Me</h1>
         <p className="mr-2">
           I have always had a love for computers and learning how they work. This passion, took
           sometime to eventuate, but eventually led me to a career in software development.
