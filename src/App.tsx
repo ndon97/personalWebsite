@@ -42,8 +42,10 @@ export default function App() {
   };
 
   return (
-    <div className="primary-text flex justify-between bg-slate-100">
-      <SideBar scrollToSection={scrollToSection} sections={sections} />
+    <div className="primary-text w-100 flex bg-slate-100">
+      <div>
+        <SideBar scrollToSection={scrollToSection} sections={sections} />
+      </div>
       <div className="flex flex-col">
         <div ref={heroBannerRef}>
           <HeroBanner />
