@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <div className="mt-6 flex items-center">
             <div className="mr-6">
-              <h2 className="mb-6 text-center text-2xl font-medium text-indigo-900">Interests</h2>
+              <h2 className="secondary-heading mb-6 text-center text-2xl font-medium">Interests</h2>
               <p>
                 Outside of coding, I enjoy playing and watching sports, reading, and spending
                 quality time with my friends and family. I also love going camping, always looking

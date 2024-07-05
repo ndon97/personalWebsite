@@ -4,6 +4,10 @@
 
 @layer components {
   .primary-text {
-    @apply text-slate-600;
+    @apply text-slate-300;
+  }
+
+  .secondary-heading {
+    @apply text-cyan-400;
   }
 }

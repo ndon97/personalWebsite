@@ -42,11 +42,11 @@ export default function App() {
   };
 
   return (
-    <div className="primary-text w-100 flex bg-slate-100">
+    <div className="primary-text w-100 flex">
       <div>
         <SideBar scrollToSection={scrollToSection} sections={sections} />
       </div>
-      <div className="flex flex-col bg-slate-100">
+      <div className="flex flex-col bg-slate-800">
         <div ref={heroBannerRef}>
           <HeroBanner />
         </div>

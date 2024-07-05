@@ -9,23 +9,23 @@ export default function Skills() {
         <h1 className="mb-5 mt-6 text-center text-4xl font-medium text-teal-600">Skills</h1>
         <div className="flex justify-evenly">
           <SkillsCard
-            icon={<FaLanguage size={30} />}
+            icon={<FaLanguage size={30} className="text-rose-700" />}
             title="Languages"
             description="JavaScript, TypeScript, Elixir, Ruby, Go"
             borderColor="border-teal-700"
             backgroundColor="bg-cyan-100"
           />
           <SkillsCard
-            icon={<FaMicrochip size={30} />}
+            icon={<FaMicrochip size={30} className="text-rose-700" />}
             title="Technologies"
             description="React, Rails, GraphQL, Git, AWS, Tailwind"
             borderColor="border-red-700"
             backgroundColor="bg-red-100"
           />
           <SkillsCard
-            icon={<FaDatabase size={30} />}
+            icon={<FaDatabase size={30} className="text-rose-700" />}
             title="Databases"
-            description="SQL, PostgreSQL, MySQL,"
+            description="SQL, PostgreSQL, MySQL"
             borderColor="border-orange-700"
             backgroundColor="bg-orange-100"
           />

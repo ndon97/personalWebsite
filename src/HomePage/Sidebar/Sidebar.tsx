@@ -25,7 +25,7 @@ type SideBarProps = {
 
 export default function SideBar({ scrollToSection, sections }: SideBarProps) {
   return (
-    <div className="sticky left-0 top-0 flex h-screen w-max flex-col bg-white pr-6 text-teal-600 shadow-lg">
+    <div className="sticky left-0 top-0 flex h-screen w-max flex-col bg-slate-700 pr-6 shadow-lg">
       <div className="ml-2 mt-10 flex flex-col">
         <SidebarItem
           title="Home"
