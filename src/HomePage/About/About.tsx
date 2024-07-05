@@ -2,7 +2,7 @@ import ImageCarousel from './ImageCarousel/ImageCarousel';
 
 export default function About() {
   return (
-    <div className="primary-text flex h-screen w-full items-center justify-center pl-10 pr-10">
+    <div className="primary-text flex h-[100dvh] w-full items-center justify-center pl-10 pr-10">
       <div className="flex">
         <div className="m-auto">
           <h1 className="mb-8 text-center text-4xl font-medium text-teal-600">About Me</h1>
