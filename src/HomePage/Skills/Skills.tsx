@@ -12,22 +12,22 @@ export default function Skills() {
             icon={<FaLanguage size={30} className="text-rose-700" />}
             title="Languages"
             description="JavaScript, TypeScript, Elixir, Ruby, Go"
-            borderColor="border-teal-700"
-            backgroundColor="bg-cyan-100"
+            borderColor="border-cyan-700"
+            backgroundColor="bg-cyan-200"
           />
           <SkillsCard
             icon={<FaMicrochip size={30} className="text-rose-700" />}
             title="Technologies"
             description="React, Rails, GraphQL, Git, AWS, Tailwind"
-            borderColor="border-red-700"
-            backgroundColor="bg-red-100"
+            borderColor="border-red-800"
+            backgroundColor="bg-red-200"
           />
           <SkillsCard
             icon={<FaDatabase size={30} className="text-rose-700" />}
             title="Databases"
             description="SQL, PostgreSQL, MySQL"
             borderColor="border-orange-700"
-            backgroundColor="bg-orange-100"
+            backgroundColor="bg-orange-200"
           />
         </div>
       </div>
