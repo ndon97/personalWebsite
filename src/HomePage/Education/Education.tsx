@@ -1,9 +1,12 @@
 import EducationTab from './EducationTab';
+
 export default function Education() {
   return (
-    <div className="flex h-[100dvh] w-full flex-col items-center p-10">
-      <div className="m-auto">
-        <h1 className="mb-2 text-center text-4xl font-medium text-teal-600">Education</h1>
+    <div className="mt-10 flex h-auto w-full flex-col px-4 sm:px-10 lg:mt-0 lg:h-[100dvh]">
+      <div className="mb-auto mt-auto">
+        <h1 className="mb-8 text-center text-3xl font-medium text-teal-600 sm:text-4xl">
+          Education
+        </h1>
         <ol>
           <EducationTab
             title="Le Wagon"

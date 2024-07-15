@@ -2,9 +2,11 @@ import ExperienceTab from './ExperienceTab';
 
 export default function Experience() {
   return (
-    <div className="flex h-[100dvh] w-full flex-col pl-10 pr-10">
-      <div className="m-auto">
-        <h1 className="mb-8 text-center text-4xl font-medium text-teal-600">Experience</h1>
+    <div className="mt-10 flex h-auto w-full flex-col px-4 sm:px-10 lg:mt-0 lg:h-[100dvh]">
+      <div className="mb-auto mt-auto">
+        <h1 className="mb-8 text-center text-3xl font-medium text-teal-600 sm:text-4xl">
+          Experience
+        </h1>
         <ExperienceTab
           title="Xplor Technologies"
           role="Software Engineer"
@@ -16,7 +18,7 @@ export default function Experience() {
             'Optimized existing GraphQL queries for better performance, eliminating a large number of customer complaints.',
             'Collaborated closely with product and design teams to develop an innovative, user-friendly product that meets customer needs.',
             'Identified, addressed, and resolved a range of bugs to improve overall website performance and stability.',
-            ' Initiated and implemented learning opportunities for junior team members, including lunch and learn sessions and team-based PR reviews.',
+            'Initiated and implemented learning opportunities for junior team members, including lunch and learn sessions and team-based PR reviews.',
             'Advocated for and implemented changes that improved developer workflows and team collaboration.',
             'Assisted new employees with onboarding, ensuring a smooth transition and integration into the team.',
           ]}

@@ -3,9 +3,9 @@ import { FaMobileAlt, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function ContactMe() {
   return (
-    <div className="flex flex-col items-center bg-cyan-900 p-10 pt-0">
-      <h1 className="pb-8 pt-4 text-center text-3xl font-medium text-teal-600">Contact</h1>
-      <footer className="flex w-full justify-around">
+    <div className="flex flex-col items-center bg-cyan-900 px-4 py-10 sm:px-10">
+      <h1 className="pb-8 text-center text-3xl font-medium text-teal-600">Contact</h1>
+      <footer className="flex w-full flex-col justify-around gap-6 sm:flex-row sm:flex-wrap">
         <ContactMeCard
           title="Mobile"
           value="0425273316"

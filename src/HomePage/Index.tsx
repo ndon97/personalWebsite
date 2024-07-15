@@ -42,28 +42,30 @@ export default function Homepage() {
   };
 
   return (
-    <div className="primary-text flex">
+    <div className="primary-text flex flex-col lg:flex-row">
       <div className="hidden lg:block">
         <SideBar scrollToSection={scrollToSection} sections={sections} />
       </div>
-      <div className="flex flex-col bg-slate-800">
-        <div ref={heroBannerRef}>
-          <HeroBanner />
-        </div>
-        <div ref={aboutRef}>
-          <About />
-        </div>
-        <div ref={myJourneyRef}>
-          <MyJourney />
-        </div>
-        <div ref={skillsRef}>
-          <Skills />
-        </div>
-        <div ref={experienceRef}>
-          <Experience />
-        </div>
-        <div ref={educationRef}>
-          <Education />
+      <div>
+        <div className="flex flex-col bg-slate-800 px-6">
+          <div ref={heroBannerRef}>
+            <HeroBanner />
+          </div>
+          <div ref={aboutRef}>
+            <About />
+          </div>
+          <div ref={myJourneyRef}>
+            <MyJourney />
+          </div>
+          <div ref={skillsRef}>
+            <Skills />
+          </div>
+          <div ref={experienceRef}>
+            <Experience />
+          </div>
+          <div ref={educationRef}>
+            <Education />
+          </div>
         </div>
         <div ref={contactMeRef}>
           <ContactMe />

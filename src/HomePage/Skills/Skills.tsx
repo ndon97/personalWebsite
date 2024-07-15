@@ -1,13 +1,14 @@
 import SkillsCard from './SkillsCard';
-
 import { FaDatabase, FaLanguage, FaMicrochip } from 'react-icons/fa';
 
 export default function Skills() {
   return (
-    <div className="flex h-[100dvh] w-full flex-col">
-      <div className="mb-auto mt-auto">
-        <h1 className="mb-5 mt-6 text-center text-4xl font-medium text-teal-600">Skills</h1>
-        <div className="flex justify-evenly">
+    <div className="flex h-auto w-full flex-col lg:h-[100dvh]">
+      <div className="mb-auto mt-auto px-4 sm:px-10">
+        <h1 className="mb-5 mt-6 text-center text-3xl font-medium text-teal-600 sm:text-4xl">
+          Skills
+        </h1>
+        <div className="flex flex-col items-center justify-evenly lg:flex-row">
           <SkillsCard
             icon={<FaLanguage size={30} className="text-rose-700" />}
             title="Languages"
